@@ -21,7 +21,7 @@ Note: `-c` flag ensures the download can resume if interrupted. The `2005` in th
     - `os` & `shutil`: File system management and directory cleanup. 
     - `gzip`: Decompressing the raw ` .gz` files downloaded in Step 1.
     - `tqdm`: Visual progress bar for batch processing long time-series.
-- Edit `Edit_Run.ipynb` to run the `cimis_processor.py` program.
+- Edit `Edit_Run.ipynb` to run the `cimis_processor.py` program to get projected GeoTIFF images.
     - `INPUT_DIR`: the folder where those spatial CIMIS data were saved.
     - `OUTPUT_DIR`: the folder where the processed spatial CIMIS data will be saved.
     - `start_year`: the start year for this processing.
