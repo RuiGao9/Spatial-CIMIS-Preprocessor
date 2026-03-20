@@ -2,7 +2,6 @@
 ![Visitors Badge](https://visitor-badge.laobi.icu/badge?page_id=RuiGao9/spatial-cimis-)<br>
 
 # A Python and Shell-based Toolkit for Spatial CIMIS Data Acquisition and Geospatial Preprocessing
-## Purpose
 This repository is designed to bridge the gap between raw data acquisition and research-ready geospatial products.<br> Spatial [CIMIS](https://cimis.water.ca.gov/Default.aspx) (California Irrigation Management Information System) provides invaluable daily ETo and solar radiation data, yet the raw ASCII formats often lack spatial reference metadata required for modern GIS and remote sensing workflows. This toolkit provides a reproducible, two-step pipeline to automate the retrieval and standardization of these datasets, supporting further research purposes.
 
 ## Two-Step Workflow
@@ -17,7 +16,16 @@ wget -r -np -nH --cut-dirs=1 --reject="index.html*" \
 Note: `-c` flag ensures the download can resume if interrupted. The `2005` in the URL can be replaced with the specific year you require.
 
 ### Step 2: Geospatial Standardization (Python with ArcGIS Pro API)
-
+- Required library:
+    - `arcpy`: Core GIS processing (define projection, raster conversion).
+    - `os` & `shutil`: File system management and directory cleanup. 
+    - `gzip`: Decompressing the raw ` .gz` files downloaded in Step 1.
+    - `tqdm`: Visual progress bar for batch processing long time-series.
+- Edit `Edit_Run.ipynb` to run the `cimis_processor.py` program.
+    - `INPUT_DIR`: the folder where those spatial CIMIS data were saved.
+    - `OUTPUT_DIR`: the folder where the processed spatial CIMIS data will be saved.
+    - `start_year`: the start year for this processing.
+    - `end_year`: the end year for this processing.    
 
 ## Acknowledgements
 I would like to express my sincere graditude to the CIMIS Scientist, Dr. Ricardo Treeza, for providing exceptional guidance and technical insights that helped shape the logic of this preprocessing workflow. His expertise was instrumental in streamlining the data transformation process.
