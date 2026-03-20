@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19137639.svg)](https://doi.org/10.5281/zenodo.19137639)
-![Visitors Badge](https://visitor-badge.laobi.icu/badge?page_id=RuiGao9/spatial-cimis-)<br>
+![Visitors Badge](https://visitor-badge.laobi.icu/badge?page_id=RuiGao9/Spatial-CIMIS-Preprocessor)<br>
 
 # A Python and Shell-based Toolkit for Spatial CIMIS Data Acquisition and Geospatial Preprocessing
 This repository is designed to bridge the gap between raw data acquisition and research-ready geospatial products.<br> Spatial [CIMIS](https://cimis.water.ca.gov/Default.aspx) (California Irrigation Management Information System) provides invaluable daily ETo and solar radiation data, yet the raw ASCII formats often lack spatial reference metadata required for modern GIS and remote sensing workflows. This toolkit provides a reproducible, two-step pipeline to automate the retrieval and standardization of these datasets, supporting further research purposes.
