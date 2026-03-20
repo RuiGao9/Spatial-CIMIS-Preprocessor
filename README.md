@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo..svg)](https://doi.org/10.5281/zenodo.)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19137639.svg)](https://doi.org/10.5281/zenodo.19137639)
 ![Visitors Badge](https://visitor-badge.laobi.icu/badge?page_id=RuiGao9/spatial-cimis-)<br>
 
 # A Python and Shell-based Toolkit for Spatial CIMIS Data Acquisition and Geospatial Preprocessing
@@ -31,7 +31,7 @@ Note: `-c` flag ensures the download can resume if interrupted. The `2005` in th
 I would like to express my sincere graditude to the CIMIS Scientist, Dr. Ricardo Treeza, for providing exceptional guidance and technical insights that helped shape the logic of this preprocessing workflow. His expertise was instrumental in streamlining the data transformation process.
 
 ## How to cite this work
-Rui Gao, Khan, M., & Viers, J. (2026). A Python and Shell-based Toolkit for Spatial CIMIS Data Acquistion and Geospatial Preprocessing (initials). Zenodo. https://doi.org/10.5281/zenodo.xxxxxxx
+Gao, R., Khan, M., & Viers, J. (2026). A Python and Shell-based Toolkit for Spatial CIMIS Data Acquistion and Geospatial Preprocessing. Zenodo. https://doi.org/10.5281/zenodo.19137639
 
 ## Repository update information
 - Creation date: 2026-03-20
