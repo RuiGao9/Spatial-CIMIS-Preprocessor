@@ -31,7 +31,7 @@ Note: `-c` flag ensures the download can resume if interrupted. The `2005` in th
 I would like to express my sincere graditude to the CIMIS Scientist, Dr. Ricardo Treeza, for providing exceptional guidance and technical insights that helped shape the logic of this preprocessing workflow. His expertise was instrumental in streamlining the data transformation process.
 
 ## How to cite this work
-Gao, R., Khan, M., & Viers, J. (2026). A Python and Shell-based Toolkit for Spatial CIMIS Data Acquisition and Geospatial Preprocessing. Zenodo. https://doi.org/10.5281/zenodo.19137639
+Gao, R., Safeeq, M., & Viers, J. (2026). A Python and Shell-based Toolkit for Spatial CIMIS Data Acquisition and Geospatial Preprocessing. Zenodo. https://doi.org/10.5281/zenodo.19137639
 
 ## Repository update information
 - Creation date: 2026-03-20
